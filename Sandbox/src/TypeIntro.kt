@@ -7,4 +7,8 @@ fun main() {
     experiencepoints += 5
     println(experiencepoints)
     println(playerName.reversed())
+
+    val numLetters = "Mississippi".count({ it == 's'})
+//    val numLetters = "Mississippi".count({ letter -> letter == 's'})
+    print(numLetters)
 }
